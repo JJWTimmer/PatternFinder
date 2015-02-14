@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pattern name="AbstractFactory">
+  <patterninstance>
+    <level>
+      <levelinstance>
+        <role name="AbstractFactory" value="my.package.Class">
+          <location file="my/package/Class.java" line="0" />
+          <comment />
+        </role>
+        <level>
+          <levelinstance>
+            <role name="AbstractProduct" value="my.package.Class">
+              <location file="my/package/Class.java" line="0" />
+              <comment />
+            </role>
+            <level>
+              <levelinstance>
+                <role name="ConcreteProduct" value="my.package.Class">
+                  <location file="my/package/Class.java" line="0" />
+                  <comment />
+                </role>
+              </levelinstance>
+            </level>
+          </levelinstance>
+        </level>
+        <level>
+          <levelinstance>
+            <role name="ConcreteFactory" value="my.package.Class">
+              <location file="my/package/Class.java" line="0" />
+              <comment />
+            </role>
+            <level>
+              <levelinstance>
+                <role name="ConcreteFactory_createProduct" value="TODO">
+                  <location file="TODO" line="TODO" />
+                  <comment />
+                </role>
+              </levelinstance>
+            </level>
+          </levelinstance>
+        </level>
+        <level>
+          <levelinstance>
+            <role name="AbstractFactory_createProduct" value="my.package.Class">
+              <location file="my/package/Class.java" line="0" />
+              <comment />
+            </role>
+          </levelinstance>
+        </level>
+      </levelinstance>
+    </level>
+  </patterninstance>
+</pattern>
+
